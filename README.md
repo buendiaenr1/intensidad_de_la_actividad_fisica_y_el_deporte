@@ -5,7 +5,8 @@ Uso de AI para crear las ecuaciones lineales de cintas de mediciones de latidos 
 archivo fuente en RUST 
 
 ### resultados.txt
-descripción del análisis de datos.csv
+descripción del análisis de datos.csv ajustados al tipo de información que guardo en datos.csv.
+el ejemplo que se tiene en este apartado es de adultos mayores en las bases de datos **AdultoMayor_n_fc de Kaggle https://www.kaggle.com/enriquebuenda/datasets?scroll=true **
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;Opcion 1
 &nbsp;&nbsp;Considera las bandas desde 0 a FC maáxima
@@ -20,6 +21,10 @@ en todo el rango de edad del grupo, varias veces al día (entre más mejor) y po
 Por lo que las ecuaciones de resultados.txt estiman frecuencias cardiacas (FC) para lograr la intensidad descrita en la imagen inferior de ejemplo, de personas aultas mayores, enfermas o no, mujeres u hombres.
 
 Pero si lo que tiene en sus datos.csv es de un grupo élite de atletas, las ecuaciones estimarán las intensidades correspondientes de ese grupo específico, considerando como para cualquier otro grupo medir: FC en reposo o Basal, actividad rutinaria (no importa si son diferentes medidas diarias) y FC maximas registradas por cualquier instrumento o medio, por varias semanas (entre mas mejor), **considerar que las FC y las edades solo se leeran si son números enteros**.
+
+Por lo que este es el archivo que usted debe usar como base para sus conclusiones e interpretaciones, el nivel de exigencia también dependerá de usted.
+
+La app ai_intendidad.exe se ajustará a sus necesidades.
 
 
 ## AI_Intensidad.exe
