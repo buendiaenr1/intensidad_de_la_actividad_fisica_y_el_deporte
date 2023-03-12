@@ -15,5 +15,6 @@ en todo el rango de edad del grupo, varias veces al día (entre más mejor) y po
 
 
 ## AI_Intensidad.exe
-Poner todos los archivos en una sola carpeta de Windows: AI_intensidad.exe, datos.csv (que son las mediciones de FC de varias actividades dependiendo la aplicación, en este caso adultos mayores, aunque se puede usar para cada grupo especifico), los resultados se obtendrán de usar una ventana de MS DOS o Windows PowerShell estando en la carpeta de archivos mencionada.
+Poner todos los archivos en una sola carpeta de Windows: AI_intensidad.exe, datos.csv (que son las mediciones de FC de varias actividades dependiendo la aplicación, en este caso adultos mayores, aunque se puede usar para cada grupo especifico), los **resultados.txt** se obtendrán de usar una ventana de MS DOS o Windows PowerShell estando en la carpeta de archivos mencionada, con el comando:  c:\carpeta_en_uso\ai_intensidad.exe > resultados.txt
+El signo > redirige la salida de la app al archivo resultados.txt o con el nombre que desee.
 
