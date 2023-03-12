@@ -7,6 +7,11 @@ archivo fuente en RUST
 ### resultados.txt
 descripción del análisis de datos.csv
 
+#### Opcion 1
+Considera las bandas desde 0 a FC maáxima
+#### Opción 2
+Considera las bandas desde FC mínima a FC máxima
+
 ### datos.csv
 son dos columnas edad y frecuencia cardiaca, en archivo CSV
 (en este caso tiene información de adultos mayores realizando actividades diarias, enfermos y sanos, hombres y mujeres)
