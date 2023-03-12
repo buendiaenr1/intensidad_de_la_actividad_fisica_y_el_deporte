@@ -1,0 +1,18 @@
+[package]
+name = "rust-ml-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+smartcore = { version = "0.2.1", features=["nalgebra-bindings"]}
+#nalgebra = { version="0.22.0", features = ["serde-serialize"]}
+
+nalgebra = "0.18.1"
+ndarray-linalg="0.16.0"
+ndarray="0.15.6"
+polyfit-residuals="0.4.0"
+approx="0.5.1"
+na="0.31.0"
