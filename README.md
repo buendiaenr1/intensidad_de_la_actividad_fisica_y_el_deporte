@@ -64,3 +64,5 @@ The **>** sign redirects the output of the app to the file results.txt or whatev
 
 ![image](https://user-images.githubusercontent.com/44904277/224556163-130b5e64-f458-4eec-b44c-e061c71cc606.png)
 
+Linear regression using AI uses the QR decomposition solution, with 0.8 data for training and 0.2 data for testing, as described at https://medium.com/swlh/machine-learning-in-rust- linear-regression-edef3fb65f93 but it was impossible to use, so the proposal was modified.
+
