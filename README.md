@@ -32,6 +32,7 @@ Poner todos los archivos en una sola carpeta de Windows: AI_intensidad.exe, dato
 
 El signo **>** redirige la salida de la app al archivo resultados.txt o con el nombre que desee.
 
+![image](https://user-images.githubusercontent.com/44904277/224583312-6bf864c9-84e7-4edd-a7b9-b10ca93a462b.png)
 
 ![image](https://user-images.githubusercontent.com/44904277/224556163-130b5e64-f458-4eec-b44c-e061c71cc606.png)
 
