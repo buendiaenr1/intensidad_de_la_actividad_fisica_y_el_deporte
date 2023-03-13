@@ -1,3 +1,12 @@
+The complete process is described below, how the analyzed information should be used, an Excel graph is shown for better clarity of the results obtained, since this application solves the problems of:
+* models with less error, 3 or 4 beats per minute maximum for the model to be related to oxygen consumption.
+* The models in the case of older adults show a negative slope and this is corroborated.
+* The errors are reduced by dividing into bands of 6 beats per minute, since the model goes through the average of the behavior.
+* The models are updated as the information in the datos.csv file is updated, or they can be improved depending on the user's requirements and the specific group of people to be treated, and the data can be filtered at the convenience and objectives of the user, before using this application, which will adjust automatically.
+
+So the quality of the results will depend to a large extent on what you want to achieve, your objectives and the rigor you want to apply when recognizing the intensity of physical activity or sport for the specific group of people or person with whom that you want to work.
+
+
 # intensidad_de_la_actividad_fisica_y_el_deporte
 Uso de AI para crear las ecuaciones lineales de cintas de mediciones de latidos por minuto, con el mínimo de error.
 Using AI to create the linear equations of beat-per-minute tape measurements, with minimal error.
