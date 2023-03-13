@@ -4,7 +4,7 @@ The complete process is described below, how the analyzed information should be 
 * The errors are reduced by dividing into bands of 6 beats per minute, since the model goes through the average of the behavior.
 * The models are updated as the information in the datos.csv file is updated, or they can be improved depending on the user's requirements and the specific group of people to be treated, and the data can be filtered at the convenience and objectives of the user, before using this application, which will adjust automatically.
 
-So the quality of the results will depend to a large extent on what you want to achieve, your objectives and the scientific or professional rigor you want to apply when recognizing the intensity of physical activity or sport for the specific group of people or person you want to work with.
+So the quality of the results will depend to a large extent on what you want to achieve, your objectives and the scientific or professional rigor you want to apply when recognizing the **intensity** of physical activity or sport for the specific group of people or person you want to work with.
 
 
 # intensidad_de_la_actividad_fisica_y_el_deporte
