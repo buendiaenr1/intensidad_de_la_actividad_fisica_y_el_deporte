@@ -60,7 +60,7 @@ you need to have resting or basal heart rate measurements and high heart rates r
 throughout the age range of the group, several times a day (the more the better) and for several weeks (including Saturdays and Sundays).
 Therefore, the equations of results.txt estimate heart rates (HR) to achieve the intensity described in the lower example image, of older people, sick or not, women or men.
 
-But if what you have in your data.csv is from an elite group of athletes, the equations will estimate the corresponding intensities of that specific group, considering as for any other group to measure: HR at rest or Basal, routine activity (it does not matter if they are different daily measurements) and maximum FC recorded by any instrument or means, for several weeks (the more the better), **consider that FC and ages will only be read if they are whole numbers**.
+But if what you have in your data.csv is from an elite group of athletes, the equations will estimate the corresponding intensities of that specific group, considering as for any other group to measure: HR at rest or Basal, routine activity (it does not matter if they are different daily measurements) and maximum FC recorded by any instrument or means, for several weeks (the more the better), **consider that FC and ages will only be read if they are integer numbers**.
 
 So this is the file that you should use as the basis for your conclusions and interpretations, the level of demand will also depend on you.
 
