@@ -6,6 +6,10 @@ The complete process is described below, how the analyzed information should be 
 
 So the quality of the results will depend to a large extent on what you want to achieve, your objectives and the scientific or professional rigor you want to apply when recognizing the **intensity** of physical activity or sport for the specific group of people or person you want to work with.
 
+Information gaps in the variables will cause larger errors in the models.
+
+The data.csv file has two columns of integer values, age and heart rate; The methodology used in the collection of the information will be very helpful in giving the results you expect for the specific group of people or specific person.
+
 
 # intensidad_de_la_actividad_fisica_y_el_deporte
 Uso de AI para crear las ecuaciones lineales de cintas de mediciones de latidos por minuto, con el mínimo de error.
