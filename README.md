@@ -16,10 +16,14 @@ The example in this section is of older adults in the databases **AdultoMayor_n_
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;Opcion 1
 &nbsp;&nbsp;Considera las bandas desde 0 a FC máxima
+
 &nbsp;&nbsp;Consider the bands from 0 to maximum HR
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;Opción 2
 &nbsp;&nbsp;Considera las bandas desde FC mínima a FC máxima
+
 &nbsp;&nbsp;Consider the bands from minimum HR to maximum HR
+
 
 ![image](https://user-images.githubusercontent.com/44904277/224584689-9b99b247-f444-4baa-97b6-3f8b59420c50.png)
 
