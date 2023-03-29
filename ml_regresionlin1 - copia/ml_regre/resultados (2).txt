@@ -1,0 +1,401 @@
+   
+
+
+
+***** BUAP Facultad de Cultura Física
+
+
+***** Dr. Enrique R.P. Buendia Lozada  [buendiaenr1@gmail.com]
+
+
+***** Control de Intensidad de la actividad vía FC
+
+
+ General ---> CSV [5 renglones de muestra]: 
+
+  ┌       ┐
+  │ 74 76 │
+  │ 74 74 │
+  │ 74 76 │
+  │ 74 70 │
+  │ 74 78 │
+  └       ┘
+
+
+x mínimo 46 y máximo 85 
+
+y mínimo 50 y máximo 130 
+
+ ::: OPCIÓN 1: Fractiles : 21 , las fracciones son del 4.761904761904762
+
+ dat n . csv significa n=1, n*4.761904761904762=4.761904761904762% de intensidad 
+
+ dat n . csv significa n=2, n*4.761904761904762=9.523809523809524% de intensidad 
+
+ dat n . csv significa n=3, n*4.761904761904762=14.285714285714285% de intensidad 
+
+ dat n . csv significa n=4, n*4.761904761904762=19.047619047619047% de intensidad 
+
+ dat n . csv significa n=5, n*4.761904761904762=23.80952380952381% de intensidad 
+
+ dat n . csv significa n=6, n*4.761904761904762=28.57142857142857% de intensidad 
+
+ dat n . csv significa n=7, n*4.761904761904762=33.333333333333336% de intensidad 
+
+ dat n . csv significa n=8, n*4.761904761904762=38.095238095238095% de intensidad 
+
+ dat n . csv significa n=9, n*4.761904761904762=42.857142857142854% de intensidad 
+
+ dat n . csv significa n=10, n*4.761904761904762=47.61904761904762% de intensidad 
+
+ dat n . csv significa n=11, n*4.761904761904762=52.38095238095238% de intensidad 
+
+ dat n . csv significa n=12, n*4.761904761904762=57.14285714285714% de intensidad 
+
+ dat n . csv significa n=13, n*4.761904761904762=61.904761904761905% de intensidad 
+
+ dat n . csv significa n=14, n*4.761904761904762=66.66666666666667% de intensidad 
+
+ dat n . csv significa n=15, n*4.761904761904762=71.42857142857143% de intensidad 
+
+ dat n . csv significa n=16, n*4.761904761904762=76.19047619047619% de intensidad 
+
+ dat n . csv significa n=17, n*4.761904761904762=80.95238095238095% de intensidad 
+
+ dat n . csv significa n=18, n*4.761904761904762=85.71428571428571% de intensidad 
+
+ dat n . csv significa n=19, n*4.761904761904762=90.47619047619048% de intensidad 
+
+ dat n . csv significa n=20, n*4.761904761904762=95.23809523809524% de intensidad 
+
+
+["dat9.csv", "dat10.csv", "dat11.csv", "dat12.csv", "dat13.csv", "dat14.csv", "dat15.csv", "dat16.csv", "dat17.csv", "dat18.csv", "dat19.csv", "dat20.csv"]
+
+ fc = -0.3428125577357284 * edad + (104.22490993047559) 
+
+ mae : 10.014340741621757
+ mse : 166.1081540230347
+ rmse: 12.888295233390439
+ 
+ H---> CSV dat9.csv  
+
+ fc = -0.20886075949367244 * edad + (65.2974683544304) 
+
+x mínimo 56 y máximo 68 
+
+y mínimo 50 y máximo 54 
+
+ mae : 0.7658227848100623
+ mse : 0.5864845377342389
+ rmse: 0.7658227848100623
+ 
+ H---> CSV dat10.csv  
+
+ fc = 0.016787574404762695 * edad + (57.4406156994047) 
+
+x mínimo 46 y máximo 82 
+
+y mínimo 54 y máximo 60 
+
+ mae : 1.5316116898148247
+ mse : 2.3947949658175776
+ rmse: 1.5475125090989015
+ 
+ H---> CSV dat11.csv  
+
+ fc = 0.027586386774531735 * edad + (61.29756434722501) 
+
+x mínimo 46 y máximo 83 
+
+y mínimo 60 y máximo 66 
+
+ mae : 1.9754297712146818
+ mse : 4.6517849699729865
+ rmse: 2.156799705576062
+ 
+ H---> CSV dat12.csv  
+
+ fc = 0.07095947936668473 * edad + (65.39354069909992) 
+
+x mínimo 46 y máximo 85 
+
+y mínimo 66 y máximo 72 
+
+ mae : 1.7573888787978251
+ mse : 4.304781825876096
+ rmse: 2.074796815564381
+ 
+ H---> CSV dat13.csv  
+
+ fc = 0.00849061834195515 * edad + (73.45115716356315) 
+
+x mínimo 46 y máximo 85 
+
+y mínimo 72 y máximo 78 
+
+ mae : 1.7724014562308625
+ mse : 3.695667964062205
+ rmse: 1.9224120172486971
+ 
+ H---> CSV dat14.csv  
+
+ fc = -0.053837229394484196 * edad + (84.74817316884902) 
+
+x mínimo 46 y máximo 85 
+
+y mínimo 78 y máximo 84 
+
+ mae : 1.9650926903331667
+ mse : 4.8045831335975695
+ rmse: 2.1919359328223007
+ 
+ H---> CSV dat15.csv  
+
+ fc = -0.0429699901566678 * edad + (89.71797038881898) 
+
+x mínimo 46 y máximo 82 
+
+y mínimo 84 y máximo 90 
+
+ mae : 1.7765736815347895
+ mse : 4.233896549919037
+ rmse: 2.057643445769708
+ 
+ H---> CSV dat16.csv  
+
+ fc = -0.018543878254958623 * edad + (93.94655120931621) 
+
+x mínimo 46 y máximo 74 
+
+y mínimo 90 y máximo 96 
+
+ mae : 1.7804846999666204
+ mse : 4.811962938630419
+ rmse: 2.19361868578621
+ 
+ H---> CSV dat17.csv  
+
+ fc = -0.16505761445032707 * edad + (108.86546247275012) 
+
+x mínimo 49 y máximo 74 
+
+y mínimo 96 y máximo 102 
+
+ mae : 1.5964912280702643
+ mse : 4.120499070803706
+ rmse: 2.0299012465644
+ 
+ H---> CSV dat18.csv  
+
+ fc = 0.135967091822648 * edad + (96.2352713820331) 
+
+x mínimo 52 y máximo 79 
+
+y mínimo 102 y máximo 108 
+
+ mae : 1.9502989142710796
+ mse : 4.628083896231376
+ rmse: 2.151298188590177
+ 
+ H---> CSV dat19.csv  
+
+ fc = -0.13448026035856842 * edad + (119.39466632933511) 
+
+x mínimo 52 y máximo 79 
+
+y mínimo 108 y máximo 114 
+
+ mae : 2.0835376314520913
+ mse : 5.03810127757238
+ rmse: 2.244571513133939
+ 
+ H---> CSV dat20.csv  
+
+ fc = 0.1276792420128251 * edad + (109.27921890346067) 
+
+x mínimo 52 y máximo 76 
+
+y mínimo 114 y máximo 120 
+
+ mae : 2.2392512565717224
+ mse : 6.806906282282351
+ rmse: 2.609004845201011
+
+ ::: OPCIÔN 2: Fractiles : 13 , las fracciones son del 7.6923076923076925
+
+ datt n . csv significa n=1, n*7.6923076923076925=7.6923076923076925% de intensidad 
+
+ datt n . csv significa n=2, n*7.6923076923076925=15.384615384615385% de intensidad 
+
+ datt n . csv significa n=3, n*7.6923076923076925=23.076923076923077% de intensidad 
+
+ datt n . csv significa n=4, n*7.6923076923076925=30.76923076923077% de intensidad 
+
+ datt n . csv significa n=5, n*7.6923076923076925=38.46153846153846% de intensidad 
+
+ datt n . csv significa n=6, n*7.6923076923076925=46.15384615384615% de intensidad 
+
+ datt n . csv significa n=7, n*7.6923076923076925=53.84615384615385% de intensidad 
+
+ datt n . csv significa n=8, n*7.6923076923076925=61.53846153846154% de intensidad 
+
+ datt n . csv significa n=9, n*7.6923076923076925=69.23076923076923% de intensidad 
+
+ datt n . csv significa n=10, n*7.6923076923076925=76.92307692307692% de intensidad 
+
+ datt n . csv significa n=11, n*7.6923076923076925=84.61538461538461% de intensidad 
+
+ datt n . csv significa n=12, n*7.6923076923076925=92.3076923076923% de intensidad 
+
+
+["datt1.csv", "datt2.csv", "datt3.csv", "datt4.csv", "datt5.csv", "datt6.csv", "datt7.csv", "datt8.csv", "datt9.csv", "datt10.csv", "datt11.csv", "datt12.csv"]
+
+ fc = -0.3428125577357284 * edad + (104.22490993047559) 
+
+ mae : 10.014340741621757
+ mse : 166.1081540230347
+ rmse: 12.888295233390439
+ 
+ H2---> CSV datt1.csv  
+
+ fc = -0.20886075949367244 * edad + (65.2974683544304) 
+
+x mínimo 56 y máximo 68 
+
+y mínimo 50 y máximo 54 
+
+ mae : 0.7658227848100623
+ mse : 0.5864845377342389
+ rmse: 0.7658227848100623
+ 
+ H2---> CSV datt2.csv  
+
+ fc = 0.018244542084305815 * edad + (57.876493203350265) 
+
+x mínimo 46 y máximo 82 
+
+y mínimo 56 y máximo 61 
+
+ mae : 1.1941696416312042
+ mse : 1.5405989055396845
+ rmse: 1.2412086470612764
+ 
+ H2---> CSV datt3.csv  
+
+ fc = 0.037258668427489844 * edad + (61.96592657067183) 
+
+x mínimo 46 y máximo 83 
+
+y mínimo 62 y máximo 67 
+
+ mae : 1.4897417174108174
+ mse : 3.5961829484498473
+ rmse: 1.8963604479238243
+ 
+ H2---> CSV datt4.csv  
+
+ fc = 0.06195415895606665 * edad + (66.39154511844401) 
+
+x mínimo 46 y máximo 85 
+
+y mínimo 68 y máximo 73 
+
+ mae : 1.6335849119920636
+ mse : 3.447496819633267
+ rmse: 1.856743606326212
+ 
+ H2---> CSV datt5.csv  
+
+ fc = 0.0165534172669541 * edad + (74.84140261898992) 
+
+x mínimo 46 y máximo 85 
+
+y mínimo 74 y máximo 79 
+
+ mae : 0.7655980851300209
+ mse : 1.2029884074779995
+ rmse: 1.096808282006477
+ 
+ H2---> CSV datt6.csv  
+
+ fc = 0.02657771327694297 * edad + (80.07201650547474) 
+
+x mínimo 46 y máximo 85 
+
+y mínimo 80 y máximo 85 
+
+ mae : 1.9615735074855887
+ mse : 3.927708461640469
+ rmse: 1.9818447117875984
+ 
+ H2---> CSV datt7.csv  
+
+ fc = -0.007584541640270823 * edad + (88.91288834168088) 
+
+x mínimo 46 y máximo 80 
+
+y mínimo 86 y máximo 91 
+
+ mae : 1.2104626805954997
+ mse : 2.4245549687340158
+ rmse: 1.557098252755431
+ 
+ H2---> CSV datt8.csv  
+
+ fc = -0.004408593182170184 * edad + (94.01803948669675) 
+
+x mínimo 46 y máximo 74 
+
+y mínimo 92 y máximo 97 
+
+ mae : 1.9135032615879723
+ mse : 3.7428675048916493
+ rmse: 1.93464919427054
+ 
+ H2---> CSV datt9.csv  
+
+ fc = -0.16754813406227886 * edad + (109.87208818635614) 
+
+x mínimo 49 y máximo 72 
+
+y mínimo 98 y máximo 103 
+
+ mae : 0.8513222010934186
+ mse : 1.242106420751609
+ rmse: 1.1144982820765625
+ 
+ H2---> CSV datt10.csv  
+
+ fc = 0.08306245245176147 * edad + (99.97524033473955) 
+
+x mínimo 52 y máximo 79 
+
+y mínimo 104 y máximo 108 
+
+ mae : 1.8001037416142254
+ mse : 4.012278194691293
+ rmse: 2.003067196748849
+ 
+ H2---> CSV datt11.csv  
+
+ fc = -0.08937887587360671 * edad + (116.83059356235849) 
+
+x mínimo 52 y máximo 76 
+
+y mínimo 110 y máximo 114 
+
+ mae : 1.23110050201781
+ mse : 1.9373722503595041
+ rmse: 1.3918952009255237
+ 
+ H2---> CSV datt12.csv  
+
+ fc = -0.06359506813757092 * edad + (123.21306510923628) 
+
+x mínimo 52 y máximo 76 
+
+y mínimo 116 y máximo 120 
+
+ mae : 2.253515033528018
+ mse : 6.959249590904067
+ rmse: 2.638038966904027
