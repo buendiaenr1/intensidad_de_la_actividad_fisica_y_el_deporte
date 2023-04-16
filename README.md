@@ -1,4 +1,5 @@
 ### Use : main_v6.rs    by renaming it to    main.rs
+### Use : intensidad_ai.exe
 
 The complete process is described below, how the analyzed information should be used, an Excel graph is shown for better clarity of the results obtained, since this application solves the problems of:
 * models with less error, 3 or 4 beats per minute maximum for the model to be related to oxygen consumption.
