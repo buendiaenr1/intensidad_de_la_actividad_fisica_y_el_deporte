@@ -2,7 +2,7 @@
 ### Use : intensidad_ai.exe
 
 The complete process is described below, how the analyzed information should be used, an Excel graph is shown for better clarity of the results obtained, since this application solves the problems of:
-* models with less error, 3 or 4 beats per minute maximum for the model to be related to oxygen consumption.
+* models with less error, 3 beats per minute maximum for the model to be related to oxygen consumption.
 * The models in the case of older adults show a negative slope and this is corroborated.
 * The errors are reduced by dividing into bands of 6 beats per minute, since the model goes through the average of the behavior.
 * The models are updated as the information in the datos.csv file is updated, or they can be improved depending on the user's requirements and the specific group of people to be treated, and the data can be filtered at the convenience and objectives of the user, before using this application, which will adjust automatically.
