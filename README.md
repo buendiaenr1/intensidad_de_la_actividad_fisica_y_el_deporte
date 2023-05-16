@@ -1,5 +1,10 @@
+
+###
 ### Use : main_v6.rs    by renaming it to    main.rs
 ### Use : intensidad_ai.exe
+
+## la nueva versión: intensidad_ai_v2.exe tiene el codigo fuente main_v7.rs renombrelo como: main.rs  y cargo_v7.toml como cargo
+### en esta version la aplicaciíon y datos.csv deben estar juntos, dar doble click al ejecutable y oprimir el botón de mostar.
 
 The complete process is described below, how the analyzed information should be used, an Excel graph is shown for better clarity of the results obtained, since this application solves the problems of:
 * models with less error, 3 beats per minute maximum for the model to be related to oxygen consumption.
