@@ -3,7 +3,7 @@
 ### Use : main_v6.rs    by renaming it to    main.rs
 ### Use : intensidad_ai.exe
 
-## la nueva versión: intensidad_ai_v2.exe tiene el codigo fuente main_v7.rs renombrelo como: main.rs  y cargo_v7.toml como cargo 
+## la nueva versión: intensidad_ai_v2.exe tiene el codigo fuente main_v7.rs renombrelo como: main.rs  y cargo_v7.toml como cargo.toml
 ### en esta version la aplicaciíon y datos.csv deben estar juntos, dar doble click al ejecutable y oprimir el botón de mostrar
 ### (v7)
 ##
