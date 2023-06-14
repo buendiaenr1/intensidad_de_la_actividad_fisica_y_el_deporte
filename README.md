@@ -1,7 +1,9 @@
 
 ###
-### Use : main_v6.rs    by renaming it to    main.rs
-### Use : intensidad_ai.exe
+### Use : main_v7.rs    by renaming it to    main.rs
+### Use : Cargo_v7.toml  by renaming it to   Cargo.toml
+### Use : intensidad_ai_v2.exe by renaming it to   Intensidad_ai.exe
+### Use : datos.csv  with your own age and heart rate measurements   
 
 ## la nueva versión: intensidad_ai_v2.exe tiene el codigo fuente main_v7.rs renombrelo como: main.rs  y cargo_v7.toml como cargo.toml
 ### en esta version la aplicaciíon y datos.csv deben estar juntos, dar doble click al ejecutable y oprimir el botón de mostrar
